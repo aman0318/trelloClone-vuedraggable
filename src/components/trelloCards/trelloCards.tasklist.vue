@@ -69,7 +69,7 @@
             </div>
       
              <div  class="board-list" v-show="tasklist.length<5">
-                     <input  type="text"   placeholder="add a list ..." class="form-control addcard" v-on:keyup.enter="addNewlist($event)"/>
+                     <input id="newList"  type="text"   placeholder="add a list ..." class="form-control addcard" v-on:keyup.enter="addNewlist($event)"/>
             </div>
             
       </div>
@@ -192,7 +192,7 @@ export default {
             list:this.tasklist.length+1
             }
             this.tasklist.push(newList);
-             document.querySelector("#"+event.target.id).value="";
+             document.querySelector("#newList").value="";
      },
      allowDrop(ev) {
     ev.preventDefault();  // default is not to allow drop

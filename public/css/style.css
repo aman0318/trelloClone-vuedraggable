@@ -9,7 +9,7 @@
     height:800px;
   }
   body{
-    background-color: rgb(98 168 191);
+    background-color: rgb(98 168 191) !important;
   }
   .editbtn{
     

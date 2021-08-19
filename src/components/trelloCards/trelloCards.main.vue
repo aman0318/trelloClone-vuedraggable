@@ -2,7 +2,7 @@
     <div>
          <div class="board-layout">
              <div class="left">
-          <div class="board-text">Today Board</div>
+          <div class="board-text">Board</div>
                 <tasklist />
         </div>
                 
